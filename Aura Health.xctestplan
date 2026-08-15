@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "23908451-E0A8-4BFC-BBE6-440F4FE6F90C",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:ˇ.xcodeproj",
+      "identifier" : "DD9CFB632FEC39F000FFB2FE",
+      "name" : "Aura Health"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ˇ.xcodeproj",
+        "identifier" : "DD9CFB722FEC39F100FFB2FE",
+        "name" : "Aura HealthTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:ˇ.xcodeproj",
+        "identifier" : "DD9CFB7C2FEC39F100FFB2FE",
+        "name" : "Aura HealthUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

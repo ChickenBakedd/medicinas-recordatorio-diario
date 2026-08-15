@@ -1,0 +1,1415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE3453FA713B7054C70E6EF /* MedicationStore+Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BA4D81B829F17C236A74FF /* MedicationStore+Profiles.swift */; };
+		52D64C3D8E0234EE6DC6CA43 /* MedicationStore+Vitals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E8429F993A87AF13D61241 /* MedicationStore+Vitals.swift */; };
+		89F00873A6EF89972255C667 /* MockRevenueCat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5387352FFF1C3ECC1F42CE /* MockRevenueCat.swift */; };
+		8F3843889DF4C046E08B73B1 /* MedicationStore+Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64A46399DEC6CD9474998DC /* MedicationStore+Inventory.swift */; };
+		9217470282D1F4B25AFB0C6C /* MedicationStore+Doses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE4495D89358FE0E5BC2646 /* MedicationStore+Doses.swift */; };
+		CF0D170B41C4B0455213FF4F /* ProGlassPreviewWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4368CEABD209C60F6238D9E1 /* ProGlassPreviewWidget.swift */; };
+		DD0A6F292FF9B7EB00A02972 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0A6F282FF9B7EB00A02972 /* WidgetKit.framework */; };
+		DD0A6F2B2FF9B7EB00A02972 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0A6F2A2FF9B7EB00A02972 /* SwiftUI.framework */; };
+		DD0A6F382FF9B7EC00A02972 /* AuraWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD0A6F262FF9B7EB00A02972 /* AuraWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD23E1092FF9373F000F0841 /* OptimalWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DD23E1082FF9373F000F0841 /* OptimalWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DDA3BCE830026235001536A0 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = DDA3BCE730026235001536A0 /* RevenueCat */; };
+		DDA3BCEA300262D5001536A0 /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = DDA3BCE9300262D5001536A0 /* RevenueCat */; };
+		DDA3BCEC300263A1001536A0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA3BCEB300263A1001536A0 /* StoreKit.framework */; };
+		E4D34A129C3FBB1435D0ADDF /* MedicationStore+Appointments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF2456CAED553FDCE05F2B1 /* MedicationStore+Appointments.swift */; };
+		FFF4478A8CBAD26BB4F0FDD3 /* MedicationStore+Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 325E4AB588A3C499071740B4 /* MedicationStore+Persistence.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD0A6F362FF9B7EC00A02972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9CFB5C2FEC39F000FFB2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD0A6F252FF9B7EB00A02972;
+			remoteInfo = AuraWidgetsExtension;
+		};
+		DD23E10A2FF9373F000F0841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9CFB5C2FEC39F000FFB2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD23E1072FF9373F000F0841;
+			remoteInfo = "OptimalWatch Watch App";
+		};
+		DD23E1182FF9373F000F0841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9CFB5C2FEC39F000FFB2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD23E1072FF9373F000F0841;
+			remoteInfo = "OptimalWatch Watch App";
+		};
+		DD23E1222FF9373F000F0841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9CFB5C2FEC39F000FFB2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD23E1072FF9373F000F0841;
+			remoteInfo = "OptimalWatch Watch App";
+		};
+		DD9CFB742FEC39F100FFB2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9CFB5C2FEC39F000FFB2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9CFB632FEC39F000FFB2FE;
+			remoteInfo = "Aura Health";
+		};
+		DD9CFB7E2FEC39F100FFB2FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD9CFB5C2FEC39F000FFB2FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD9CFB632FEC39F000FFB2FE;
+			remoteInfo = "Aura Health";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD0A6F3D2FF9B7EC00A02972 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DD0A6F382FF9B7EC00A02972 /* AuraWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E12C2FF9373F000F0841 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DD23E1092FF9373F000F0841 /* OptimalWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		179D4013A1357047FD955A69 /* MedicationStore+Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Persistence.swift"; path = "Aura Health/ViewModels/MedicationStore+Persistence.swift"; sourceTree = SOURCE_ROOT; };
+		325E4AB588A3C499071740B4 /* MedicationStore+Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Persistence.swift"; path = "Aura Health/ViewModels/MedicationStore+Persistence.swift"; sourceTree = SOURCE_ROOT; };
+		3A2E44C2A90FAE5AF8687C82 /* ProGlassHealthVitalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProGlassHealthVitalsView.swift; path = "Aura Health/Views/VitalsCards/ProGlassHealthVitalsView.swift"; sourceTree = SOURCE_ROOT; };
+		4368CEABD209C60F6238D9E1 /* ProGlassPreviewWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProGlassPreviewWidget.swift; path = "Aura Health/Views/ProGlassPreviewWidget.swift"; sourceTree = "<group>"; };
+		47BA4D81B829F17C236A74FF /* MedicationStore+Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Profiles.swift"; path = "Aura Health/ViewModels/MedicationStore+Profiles.swift"; sourceTree = SOURCE_ROOT; };
+		4B624DA0BC8F8452B344E402 /* MedicationStore+Doses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Doses.swift"; path = "Aura Health/ViewModels/MedicationStore+Doses.swift"; sourceTree = SOURCE_ROOT; };
+		4E924A69A8DAFD52E8E3D2FC /* MedicationStore+Vitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Vitals.swift"; path = "Aura Health/ViewModels/MedicationStore+Vitals.swift"; sourceTree = SOURCE_ROOT; };
+		63AA43EEBE2DCE41B1F051AB /* MedicationStore+Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Profiles.swift"; path = "Aura Health/ViewModels/MedicationStore+Profiles.swift"; sourceTree = SOURCE_ROOT; };
+		6B5387352FFF1C3ECC1F42CE /* MockRevenueCat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MockRevenueCat.swift; path = "Aura Health/Managers/MockRevenueCat.swift"; sourceTree = "<group>"; };
+		7CF2456CAED553FDCE05F2B1 /* MedicationStore+Appointments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Appointments.swift"; path = "Aura Health/ViewModels/MedicationStore+Appointments.swift"; sourceTree = SOURCE_ROOT; };
+		C64A46399DEC6CD9474998DC /* MedicationStore+Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Inventory.swift"; path = "Aura Health/ViewModels/MedicationStore+Inventory.swift"; sourceTree = SOURCE_ROOT; };
+		C8E04053BF005CA5C438D200 /* VitalsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VitalsHistoryView.swift; path = "Aura Health/Views/VitalsCards/VitalsHistoryView.swift"; sourceTree = SOURCE_ROOT; };
+		D8E24D80A3C12DB62A50429C /* ProGlassVitalsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProGlassVitalsHistoryView.swift; path = "Aura Health/Views/VitalsCards/ProGlassVitalsHistoryView.swift"; sourceTree = SOURCE_ROOT; };
+		DACB44D7B67EC41E7DA2D456 /* MedicationStore+Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Inventory.swift"; path = "Aura Health/ViewModels/MedicationStore+Inventory.swift"; sourceTree = SOURCE_ROOT; };
+		DD0A6F262FF9B7EB00A02972 /* AuraWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AuraWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0A6F282FF9B7EB00A02972 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DD0A6F2A2FF9B7EB00A02972 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DD0A6F3E2FF9B81200A02972 /* AuraWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AuraWidgetsExtension.entitlements; sourceTree = "<group>"; };
+		DD23E1032FF9373F000F0841 /* OptimalWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimalWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD23E1082FF9373F000F0841 /* OptimalWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OptimalWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD23E1172FF9373F000F0841 /* OptimalWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OptimalWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD23E1212FF9373F000F0841 /* OptimalWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OptimalWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9CFB642FEC39F000FFB2FE /* Aura Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aura Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9CFB732FEC39F100FFB2FE /* Aura HealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aura HealthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9CFB7D2FEC39F100FFB2FE /* Aura HealthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aura HealthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA3BCEB300263A1001536A0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EDE4495D89358FE0E5BC2646 /* MedicationStore+Doses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Doses.swift"; path = "Aura Health/ViewModels/MedicationStore+Doses.swift"; sourceTree = SOURCE_ROOT; };
+		F32A470E8027E497A3EBE5D1 /* MedicationStore+Appointments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Appointments.swift"; path = "Aura Health/ViewModels/MedicationStore+Appointments.swift"; sourceTree = SOURCE_ROOT; };
+		F9E8429F993A87AF13D61241 /* MedicationStore+Vitals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MedicationStore+Vitals.swift"; path = "Aura Health/ViewModels/MedicationStore+Vitals.swift"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD0A6F392FF9B7EC00A02972 /* Exceptions for "AuraWidgets" folder in "AuraWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DD0A6F252FF9B7EB00A02972 /* AuraWidgetsExtension */;
+		};
+		DD0A713C2FF9BDAC00A02972 /* Exceptions for "Aura Health" folder in "AuraWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Managers/HapticManager.swift,
+				Managers/NotificationManager.swift,
+				Managers/PremiumManager.swift,
+				Managers/WatchSyncManager.swift,
+				Models/MedicationModels.swift,
+				ViewModels/AttachmentManager.swift,
+				ViewModels/MedicationStore.swift,
+			);
+			target = DD0A6F252FF9B7EB00A02972 /* AuraWidgetsExtension */;
+		};
+		DDEEC4743002BB85006F4DC5 /* Exceptions for "Aura Health" folder in "Aura Health" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Views/ProGlassPreviewWidget.swift,
+			);
+			target = DD9CFB632FEC39F000FFB2FE /* Aura Health */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD0A6F2C2FF9B7EB00A02972 /* AuraWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD0A6F392FF9B7EC00A02972 /* Exceptions for "AuraWidgets" folder in "AuraWidgetsExtension" target */,
+			);
+			path = AuraWidgets;
+			sourceTree = "<group>";
+		};
+		DD23E10C2FF9373F000F0841 /* OptimalWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OptimalWatch Watch App";
+			sourceTree = "<group>";
+		};
+		DD23E11A2FF9373F000F0841 /* OptimalWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OptimalWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DD23E1242FF9373F000F0841 /* OptimalWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OptimalWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		DD9CFB662FEC39F000FFB2FE /* Aura Health */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DDEEC4743002BB85006F4DC5 /* Exceptions for "Aura Health" folder in "Aura Health" target */,
+				DD0A713C2FF9BDAC00A02972 /* Exceptions for "Aura Health" folder in "AuraWidgetsExtension" target */,
+			);
+			path = "Aura Health";
+			sourceTree = "<group>";
+		};
+		DD9CFB762FEC39F100FFB2FE /* Aura HealthTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Aura HealthTests";
+			sourceTree = "<group>";
+		};
+		DD9CFB802FEC39F100FFB2FE /* Aura HealthUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Aura HealthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD0A6F232FF9B7EB00A02972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD0A6F2B2FF9B7EB00A02972 /* SwiftUI.framework in Frameworks */,
+				DD0A6F292FF9B7EB00A02972 /* WidgetKit.framework in Frameworks */,
+				DDA3BCE830026235001536A0 /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E1052FF9373F000F0841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E1142FF9373F000F0841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E11E2FF9373F000F0841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB612FEC39F000FFB2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDA3BCEA300262D5001536A0 /* RevenueCat in Frameworks */,
+				DDA3BCEC300263A1001536A0 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB702FEC39F100FFB2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB7A2FEC39F100FFB2FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0C24B039085CB0881D1FB51 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				63AA43EEBE2DCE41B1F051AB /* MedicationStore+Profiles.swift */,
+				47BA4D81B829F17C236A74FF /* MedicationStore+Profiles.swift */,
+				4B624DA0BC8F8452B344E402 /* MedicationStore+Doses.swift */,
+				EDE4495D89358FE0E5BC2646 /* MedicationStore+Doses.swift */,
+				DACB44D7B67EC41E7DA2D456 /* MedicationStore+Inventory.swift */,
+				C64A46399DEC6CD9474998DC /* MedicationStore+Inventory.swift */,
+				F32A470E8027E497A3EBE5D1 /* MedicationStore+Appointments.swift */,
+				7CF2456CAED553FDCE05F2B1 /* MedicationStore+Appointments.swift */,
+				4E924A69A8DAFD52E8E3D2FC /* MedicationStore+Vitals.swift */,
+				F9E8429F993A87AF13D61241 /* MedicationStore+Vitals.swift */,
+				179D4013A1357047FD955A69 /* MedicationStore+Persistence.swift */,
+				325E4AB588A3C499071740B4 /* MedicationStore+Persistence.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		DD0A6F272FF9B7EB00A02972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDA3BCEB300263A1001536A0 /* StoreKit.framework */,
+				DD0A6F282FF9B7EB00A02972 /* WidgetKit.framework */,
+				DD0A6F2A2FF9B7EB00A02972 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9CFB5B2FEC39F000FFB2FE = {
+			isa = PBXGroup;
+			children = (
+				DD0A6F3E2FF9B81200A02972 /* AuraWidgetsExtension.entitlements */,
+				DD9CFB662FEC39F000FFB2FE /* Aura Health */,
+				DD9CFB762FEC39F100FFB2FE /* Aura HealthTests */,
+				DD9CFB802FEC39F100FFB2FE /* Aura HealthUITests */,
+				DD23E10C2FF9373F000F0841 /* OptimalWatch Watch App */,
+				DD23E11A2FF9373F000F0841 /* OptimalWatch Watch AppTests */,
+				DD23E1242FF9373F000F0841 /* OptimalWatch Watch AppUITests */,
+				DD0A6F2C2FF9B7EB00A02972 /* AuraWidgets */,
+				DD0A6F272FF9B7EB00A02972 /* Frameworks */,
+				DD9CFB652FEC39F000FFB2FE /* Products */,
+				6B5387352FFF1C3ECC1F42CE /* MockRevenueCat.swift */,
+				4368CEABD209C60F6238D9E1 /* ProGlassPreviewWidget.swift */,
+				C0C24B039085CB0881D1FB51 /* ViewModels */,
+				FF814728995C335323162745 /* Views */,
+			);
+			sourceTree = "<group>";
+		};
+		DD9CFB652FEC39F000FFB2FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD9CFB642FEC39F000FFB2FE /* Aura Health.app */,
+				DD9CFB732FEC39F100FFB2FE /* Aura HealthTests.xctest */,
+				DD9CFB7D2FEC39F100FFB2FE /* Aura HealthUITests.xctest */,
+				DD23E1032FF9373F000F0841 /* OptimalWatch.app */,
+				DD23E1082FF9373F000F0841 /* OptimalWatch Watch App.app */,
+				DD23E1172FF9373F000F0841 /* OptimalWatch Watch AppTests.xctest */,
+				DD23E1212FF9373F000F0841 /* OptimalWatch Watch AppUITests.xctest */,
+				DD0A6F262FF9B7EB00A02972 /* AuraWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF694C3ABEEA1A1089BB817B /* VitalsCards */ = {
+			isa = PBXGroup;
+			children = (
+				C8E04053BF005CA5C438D200 /* VitalsHistoryView.swift */,
+				3A2E44C2A90FAE5AF8687C82 /* ProGlassHealthVitalsView.swift */,
+				D8E24D80A3C12DB62A50429C /* ProGlassVitalsHistoryView.swift */,
+			);
+			name = VitalsCards;
+			sourceTree = "<group>";
+		};
+		FF814728995C335323162745 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FF694C3ABEEA1A1089BB817B /* VitalsCards */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD0A6F252FF9B7EB00A02972 /* AuraWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD0A6F3A2FF9B7EC00A02972 /* Build configuration list for PBXNativeTarget "AuraWidgetsExtension" */;
+			buildPhases = (
+				DD0A6F222FF9B7EB00A02972 /* Sources */,
+				DD0A6F232FF9B7EB00A02972 /* Frameworks */,
+				DD0A6F242FF9B7EB00A02972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD0A6F2C2FF9B7EB00A02972 /* AuraWidgets */,
+			);
+			name = AuraWidgetsExtension;
+			productName = AuraWidgetsExtension;
+			productReference = DD0A6F262FF9B7EB00A02972 /* AuraWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DD23E1072FF9373F000F0841 /* OptimalWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD23E1292FF9373F000F0841 /* Build configuration list for PBXNativeTarget "OptimalWatch Watch App" */;
+			buildPhases = (
+				DD23E1042FF9373F000F0841 /* Sources */,
+				DD23E1052FF9373F000F0841 /* Frameworks */,
+				DD23E1062FF9373F000F0841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD23E10C2FF9373F000F0841 /* OptimalWatch Watch App */,
+			);
+			name = "OptimalWatch Watch App";
+			productName = "OptimalWatch Watch App";
+			productReference = DD23E1082FF9373F000F0841 /* OptimalWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD23E1162FF9373F000F0841 /* OptimalWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD23E1302FF9373F000F0841 /* Build configuration list for PBXNativeTarget "OptimalWatch Watch AppTests" */;
+			buildPhases = (
+				DD23E1132FF9373F000F0841 /* Sources */,
+				DD23E1142FF9373F000F0841 /* Frameworks */,
+				DD23E1152FF9373F000F0841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD23E1192FF9373F000F0841 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD23E11A2FF9373F000F0841 /* OptimalWatch Watch AppTests */,
+			);
+			name = "OptimalWatch Watch AppTests";
+			productName = "OptimalWatch Watch AppTests";
+			productReference = DD23E1172FF9373F000F0841 /* OptimalWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD23E1202FF9373F000F0841 /* OptimalWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD23E1332FF9373F000F0841 /* Build configuration list for PBXNativeTarget "OptimalWatch Watch AppUITests" */;
+			buildPhases = (
+				DD23E11D2FF9373F000F0841 /* Sources */,
+				DD23E11E2FF9373F000F0841 /* Frameworks */,
+				DD23E11F2FF9373F000F0841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD23E1232FF9373F000F0841 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD23E1242FF9373F000F0841 /* OptimalWatch Watch AppUITests */,
+			);
+			name = "OptimalWatch Watch AppUITests";
+			productName = "OptimalWatch Watch AppUITests";
+			productReference = DD23E1212FF9373F000F0841 /* OptimalWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DD9CFB632FEC39F000FFB2FE /* Aura Health */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9CFB872FEC39F100FFB2FE /* Build configuration list for PBXNativeTarget "Aura Health" */;
+			buildPhases = (
+				DD9CFB602FEC39F000FFB2FE /* Sources */,
+				DD9CFB612FEC39F000FFB2FE /* Frameworks */,
+				DD9CFB622FEC39F000FFB2FE /* Resources */,
+				DD0A6F3D2FF9B7EC00A02972 /* Embed Foundation Extensions */,
+				DD23E12C2FF9373F000F0841 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD0A6F372FF9B7EC00A02972 /* PBXTargetDependency */,
+				DD23E10B2FF9373F000F0841 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD9CFB662FEC39F000FFB2FE /* Aura Health */,
+			);
+			name = "Aura Health";
+			productName = "Aura Health";
+			productReference = DD9CFB642FEC39F000FFB2FE /* Aura Health.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD9CFB722FEC39F100FFB2FE /* Aura HealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9CFB8A2FEC39F100FFB2FE /* Build configuration list for PBXNativeTarget "Aura HealthTests" */;
+			buildPhases = (
+				DD9CFB6F2FEC39F100FFB2FE /* Sources */,
+				DD9CFB702FEC39F100FFB2FE /* Frameworks */,
+				DD9CFB712FEC39F100FFB2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9CFB752FEC39F100FFB2FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD9CFB762FEC39F100FFB2FE /* Aura HealthTests */,
+			);
+			name = "Aura HealthTests";
+			productName = "Aura HealthTests";
+			productReference = DD9CFB732FEC39F100FFB2FE /* Aura HealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD9CFB7C2FEC39F100FFB2FE /* Aura HealthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD9CFB8D2FEC39F100FFB2FE /* Build configuration list for PBXNativeTarget "Aura HealthUITests" */;
+			buildPhases = (
+				DD9CFB792FEC39F100FFB2FE /* Sources */,
+				DD9CFB7A2FEC39F100FFB2FE /* Frameworks */,
+				DD9CFB7B2FEC39F100FFB2FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9CFB7F2FEC39F100FFB2FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD9CFB802FEC39F100FFB2FE /* Aura HealthUITests */,
+			);
+			name = "Aura HealthUITests";
+			productName = "Aura HealthUITests";
+			productReference = DD9CFB7D2FEC39F100FFB2FE /* Aura HealthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD9CFB5C2FEC39F000FFB2FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					DD0A6F252FF9B7EB00A02972 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					DD23E1072FF9373F000F0841 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					DD23E1162FF9373F000F0841 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = DD23E1072FF9373F000F0841;
+					};
+					DD23E1202FF9373F000F0841 = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = DD23E1072FF9373F000F0841;
+					};
+					DD9CFB632FEC39F000FFB2FE = {
+						CreatedOnToolsVersion = 26.5;
+					};
+					DD9CFB722FEC39F100FFB2FE = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = DD9CFB632FEC39F000FFB2FE;
+					};
+					DD9CFB7C2FEC39F100FFB2FE = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = DD9CFB632FEC39F000FFB2FE;
+					};
+				};
+			};
+			buildConfigurationList = DD9CFB5F2FEC39F000FFB2FE /* Build configuration list for PBXProject "ˇ" */;
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = DD9CFB5B2FEC39F000FFB2FE;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DDA3BCE43002609C001536A0 /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD9CFB652FEC39F000FFB2FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD9CFB632FEC39F000FFB2FE /* Aura Health */,
+				DD9CFB722FEC39F100FFB2FE /* Aura HealthTests */,
+				DD9CFB7C2FEC39F100FFB2FE /* Aura HealthUITests */,
+				DD23E1072FF9373F000F0841 /* OptimalWatch Watch App */,
+				DD23E1162FF9373F000F0841 /* OptimalWatch Watch AppTests */,
+				DD23E1202FF9373F000F0841 /* OptimalWatch Watch AppUITests */,
+				DD0A6F252FF9B7EB00A02972 /* AuraWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD0A6F242FF9B7EB00A02972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E1062FF9373F000F0841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E1152FF9373F000F0841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E11F2FF9373F000F0841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB622FEC39F000FFB2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB712FEC39F100FFB2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB7B2FEC39F100FFB2FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD0A6F222FF9B7EB00A02972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F00873A6EF89972255C667 /* MockRevenueCat.swift in Sources */,
+				2BE3453FA713B7054C70E6EF /* MedicationStore+Profiles.swift in Sources */,
+				9217470282D1F4B25AFB0C6C /* MedicationStore+Doses.swift in Sources */,
+				8F3843889DF4C046E08B73B1 /* MedicationStore+Inventory.swift in Sources */,
+				E4D34A129C3FBB1435D0ADDF /* MedicationStore+Appointments.swift in Sources */,
+				52D64C3D8E0234EE6DC6CA43 /* MedicationStore+Vitals.swift in Sources */,
+				FFF4478A8CBAD26BB4F0FDD3 /* MedicationStore+Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E1042FF9373F000F0841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E1132FF9373F000F0841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD23E11D2FF9373F000F0841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB602FEC39F000FFB2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0D170B41C4B0455213FF4F /* ProGlassPreviewWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB6F2FEC39F100FFB2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD9CFB792FEC39F100FFB2FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD0A6F372FF9B7EC00A02972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD0A6F252FF9B7EB00A02972 /* AuraWidgetsExtension */;
+			targetProxy = DD0A6F362FF9B7EC00A02972 /* PBXContainerItemProxy */;
+		};
+		DD23E10B2FF9373F000F0841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD23E1072FF9373F000F0841 /* OptimalWatch Watch App */;
+			targetProxy = DD23E10A2FF9373F000F0841 /* PBXContainerItemProxy */;
+		};
+		DD23E1192FF9373F000F0841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD23E1072FF9373F000F0841 /* OptimalWatch Watch App */;
+			targetProxy = DD23E1182FF9373F000F0841 /* PBXContainerItemProxy */;
+		};
+		DD23E1232FF9373F000F0841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD23E1072FF9373F000F0841 /* OptimalWatch Watch App */;
+			targetProxy = DD23E1222FF9373F000F0841 /* PBXContainerItemProxy */;
+		};
+		DD9CFB752FEC39F100FFB2FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9CFB632FEC39F000FFB2FE /* Aura Health */;
+			targetProxy = DD9CFB742FEC39F100FFB2FE /* PBXContainerItemProxy */;
+		};
+		DD9CFB7F2FEC39F100FFB2FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD9CFB632FEC39F000FFB2FE /* Aura Health */;
+			targetProxy = DD9CFB7E2FEC39F100FFB2FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD0A6F3B2FF9B7EC00A02972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AuraWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuraWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas.AuraWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DD0A6F3C2FF9B7EC00A02972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AuraWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AuraWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas.AuraWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD23E12A2FF9373F000F0841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OptimalWatch Watch App/OptimalWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jmrsoft.medicinas;
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		DD23E12B2FF9373F000F0841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OptimalWatch Watch App/OptimalWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jmrsoft.medicinas;
+				INFOPLIST_KEY_WKWatchOnly = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		DD23E1312FF9373F000F0841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas.watchkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimalWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OptimalWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		DD23E1322FF9373F000F0841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas.watchkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptimalWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OptimalWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		DD23E1342FF9373F000F0841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas.watchkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "OptimalWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		DD23E1352FF9373F000F0841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas.watchkitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "OptimalWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		DD9CFB852FEC39F100FFB2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD9CFB862FEC39F100FFB2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DD9CFB882FEC39F100FFB2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aura Health/Aura Health.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Medicinas requiere acceso a la cámara para escanear cajas de medicamentos.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Se requiere Face ID para proteger la privacidad de tus datos médicos y citas.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Medicinas requiere acceso a tu historial clínico para leer las medicinas.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Medicinas requiere acceso a tus datos de salud para mostrar métricas vitales en tu historial médico.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Medicinas guardará las mediciones que registres (peso, presión, etc.) en Apple Health.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		DD9CFB892FEC39F100FFB2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aura Health/Aura Health.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = SZM9A3L2Q6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Medicinas requiere acceso a la cámara para escanear cajas de medicamentos.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Se requiere Face ID para proteger la privacidad de tus datos médicos y citas.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Medicinas requiere acceso a tu historial clínico para leer las medicinas.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Medicinas requiere acceso a tus datos de salud para mostrar métricas vitales en tu historial médico.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Medicinas guardará las mediciones que registres (peso, presión, etc.) en Apple Health.";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		DD9CFB8B2FEC39F100FFB2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Medicinas requiere acceso a la cámara para escanear cajas de medicamentos.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Se requiere Face ID para proteger la privacidad de tus datos médicos y citas.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Medicinas requiere acceso a tu historial clínico para leer las medicinas.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Medicinas requiere acceso a tus datos de salud para mostrar métricas vitales en tu historial médico.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Medicinas guardará las mediciones que registres (peso, presión, etc.) en Apple Health.";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aura Health.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aura Health";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		DD9CFB8C2FEC39F100FFB2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Medicinas requiere acceso a la cámara para escanear cajas de medicamentos.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Se requiere Face ID para proteger la privacidad de tus datos médicos y citas.";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Medicinas requiere acceso a tu historial clínico para leer las medicinas.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Medicinas requiere acceso a tus datos de salud para mostrar métricas vitales en tu historial médico.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Medicinas guardará las mediciones que registres (peso, presión, etc.) en Apple Health.";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aura Health.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aura Health";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+		DD9CFB8E2FEC39F100FFB2FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Medicinas requiere acceso a la cámara para escanear cajas de medicamentos.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Se requiere Face ID para proteger la privacidad de tus datos médicos y citas.";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Aura Health";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		DD9CFB8F2FEC39F100FFB2FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es;
+				INFOPLIST_KEY_CFBundleDisplayName = Medicinas;
+				INFOPLIST_KEY_CFBundleLocalizations = es;
+				INFOPLIST_KEY_CFBundleName = Medicinas;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Medicinas requiere acceso a la cámara para escanear cajas de medicamentos.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Se requiere Face ID para proteger la privacidad de tus datos médicos y citas.";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmrsoft.medicinasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = "Aura Health";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD0A6F3A2FF9B7EC00A02972 /* Build configuration list for PBXNativeTarget "AuraWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD0A6F3B2FF9B7EC00A02972 /* Debug */,
+				DD0A6F3C2FF9B7EC00A02972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD23E1292FF9373F000F0841 /* Build configuration list for PBXNativeTarget "OptimalWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD23E12A2FF9373F000F0841 /* Debug */,
+				DD23E12B2FF9373F000F0841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD23E1302FF9373F000F0841 /* Build configuration list for PBXNativeTarget "OptimalWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD23E1312FF9373F000F0841 /* Debug */,
+				DD23E1322FF9373F000F0841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD23E1332FF9373F000F0841 /* Build configuration list for PBXNativeTarget "OptimalWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD23E1342FF9373F000F0841 /* Debug */,
+				DD23E1352FF9373F000F0841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9CFB5F2FEC39F000FFB2FE /* Build configuration list for PBXProject "ˇ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9CFB852FEC39F100FFB2FE /* Debug */,
+				DD9CFB862FEC39F100FFB2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9CFB872FEC39F100FFB2FE /* Build configuration list for PBXNativeTarget "Aura Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9CFB882FEC39F100FFB2FE /* Debug */,
+				DD9CFB892FEC39F100FFB2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9CFB8A2FEC39F100FFB2FE /* Build configuration list for PBXNativeTarget "Aura HealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9CFB8B2FEC39F100FFB2FE /* Debug */,
+				DD9CFB8C2FEC39F100FFB2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD9CFB8D2FEC39F100FFB2FE /* Build configuration list for PBXNativeTarget "Aura HealthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD9CFB8E2FEC39F100FFB2FE /* Debug */,
+				DD9CFB8F2FEC39F100FFB2FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDA3BCE43002609C001536A0 /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.80.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDA3BCE730026235001536A0 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDA3BCE43002609C001536A0 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+		DDA3BCE9300262D5001536A0 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDA3BCE43002609C001536A0 /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DD9CFB5C2FEC39F000FFB2FE /* Project object */;
+}
